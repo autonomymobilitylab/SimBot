@@ -1,0 +1,6 @@
+# attach_trolley.yaml
+joint:
+  name: "robot_trolley_joint"
+  type: 1          # 0=FIXED, 1=REVOLUTE, 2=PRISMATIC
+  parent: "flexley_tug::base_link"
+  child: "trolley::base"

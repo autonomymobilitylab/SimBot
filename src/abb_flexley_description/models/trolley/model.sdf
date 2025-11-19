@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <model name="trolley">
+    <pose>0 0 0 0 0 0</pose>
+    <static>false</static>
+
+    
+    <link name="base">
+      
+      <inertial>
+        <pose>-0 0 0 0 0 0</pose>
+        <mass>5</mass>
+        <inertia>
+          <ixx>0.07</ixx><iyy>0.11</iyy><izz>0.15</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+        </inertia>
+      </inertial>
+      
+      <collision name="collision">  
+        <pose>0 -0.25 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://trolley/meshes/DOLLEYASSY_1.stl</uri>
+            <scale>0.002 0.002 0.002</scale> 
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://trolley/meshes/DOLLEYASSY.stl</uri>
+            <scale>0.002 0.002 0.002</scale> 
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.0 0.0 0.0 1</ambient>
+          <diffuse>0.0 0.0 0.0 1</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
+

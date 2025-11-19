@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/dbotros2/ros2_prac/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/home/dbotros2/ros2_prac/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/dbotros2/ros2_prac/install/py_srvcli/lib/python3.10/site-packages",
+        "/home/dbotros2/ros2_prac/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/dbotros2/ros2_prac/install/my_package3/lib/python3.10/site-packages",
+        "/home/dbotros2/ros2_prac/install/abb_flexley_tug/lib/python3.10/site-packages",
+        "/home/dbotros2/ros2_prac/install/abb_flexley_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dbotros2/ros2_prac/install/tutorial_interfaces/local/lib/python3.10/dist-packages",
+        "/home/dbotros2/ros2_prac/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/dbotros2/ros2_prac/install/py_srvcli/lib/python3.10/site-packages",
+        "/home/dbotros2/ros2_prac/install/py_pubsub/lib/python3.10/site-packages",
+        "/home/dbotros2/ros2_prac/install/my_package3/lib/python3.10/site-packages",
+        "/home/dbotros2/ros2_prac/install/abb_flexley_tug/lib/python3.10/site-packages",
+        "/home/dbotros2/ros2_prac/install/abb_flexley_description/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
