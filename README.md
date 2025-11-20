@@ -82,7 +82,8 @@ This will make the node executable and you can then rerun the node in the termin
 # Demo
 This robot simulation can be seen in the video below, demonstrating the robot's teleoperation in the warehouse environment.
 <br><br>
-![Untitleddesign1-ezgif com-crop(2)](https://github.com/user-attachments/assets/3b2cc839-cb92-4bfe-90a0-620b37f5a91e)
+![Screencastfrom2025-08-11162700-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e7a10525-02b9-431d-9332-7f5402593aec)
+
 <br><br>
 The attachement and detachment of the trolley with the robot is shown in the video below.
 <br><br>
