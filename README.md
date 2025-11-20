@@ -1,5 +1,16 @@
 # SimBot
 Simbot is a ROS 2 Humble simulation of the ABB Flexley Tug AMR, built in Ignition Gazebo Fortress. It replicates the robot’s real sensor setup, including multiple cameras and dual lidars, providing an accurate virtual model for development and testing.
+
+# Requirements
+<ul>
+  <li>Ubuntu 22.04</li>
+  <p></p>
+  <li>ROS2 Humble</li>
+  <p></p>
+  <li>Ignition Gazebo Fortress</li>
+  <p></p>
+</ul>
+
 # Developement 
 For development of the package ensure your system is running Ubuntu 22.04, also ensure that ROS2 Humble and Ignition Gazebo Fortress is installed on your PC. If ROS2 Humble is not installed yet, please follow the instruction in the following link:
 ```bash
@@ -68,4 +79,5 @@ You can add the camera and the lidar in the RViz and select the corresponding to
 chmod +x node_name.py
 ```
 This will make the node executable and you can then rerun the node in the terminal. 
-# 
+# Demo
+
