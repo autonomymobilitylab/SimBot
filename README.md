@@ -80,12 +80,11 @@ chmod +x node_name.py
 ```
 This will make the node executable and you can then rerun the node in the terminal. 
 # Demo
-This robot simulation can be seen in the video below, demonstrating the robot's teleoperation in the warehouse environment.
+The robot's simulation can be seen in the video below, demonstrating the robot's teleoperation in the warehouse environment.
 <br><br>
 ![Screencastfrom2025-08-11162700-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e7a10525-02b9-431d-9332-7f5402593aec)
-
 <br><br>
-The attachement and detachment of the trolley with the robot is shown in the video below.
+The attachement and detachment of the trolley with the robot can be seen below.
 <br><br>
 ![Robotwithtrolley-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/0e8dcb6e-887a-4f64-a86f-055e7ce23619)
 <br><br>
