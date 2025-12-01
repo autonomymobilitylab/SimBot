@@ -11,7 +11,7 @@ Simbot is a ROS2 Humble simulation of the ABB Flexley Tug AMR, built in Ignition
   <p></p>
 </ul>
 
-# Developement 
+# Installation 
 For development of the package ensure your system is running Ubuntu 22.04, also ensure that ROS2 Humble and Ignition Gazebo Fortress is installed on your PC. If ROS2 Humble is not installed yet, please follow the instruction in the following link:
 ```bash
 https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
@@ -38,6 +38,7 @@ After cloning the package in your workspace, you'll see a directory named SimBot
 cd SimBot
 colcon build --packages-select abb_flexley_description 
 ```
+# Usage
 After successfully building the package, you'll see build, install and log folder along with the already existing src folder. Now source your environment to install directory using following command.
 ```bash
 source install/setup.bash 
