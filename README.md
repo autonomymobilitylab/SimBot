@@ -27,6 +27,7 @@ sudo apt-get install ros-humble-ros-gz-bridge
 sudo apt-get install ros-humble-joint-state-publisher-gui
 sudo apt-get install ros-humble-ros-gz-sim
 sudo apt-get install ros-humble-teleop-twist-keyboard
+```
 After successfully installing all these packages in your PC,open a new terminal and source the environment:
 ```bash
 source /opt/ros/humble/setup.bash
