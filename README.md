@@ -20,7 +20,14 @@ For installation of Gazebo Fortress, please follow the instruction in the follow
 ```bash
 https://gazebosim.org/docs/fortress/install_ubuntu/
 ```
-Once you have both ROS2 & Gazebo installed in your PC,open a new terminal and source the environment:
+After Installation of ROS2 and Ignition Gazebo, please also install the related packages and modules that are being used for this simulation as follows:
+```bash
+sudo apt-get install ros-humble-xacro
+sudo apt-get install ros-humble-ros-gz-bridge
+sudo apt-get install ros-humble-joint-state-publisher-gui
+sudo apt-get install ros-humble-ros-gz-sim
+sudo apt-get install ros-humble-teleop-twist-keyboard
+After successfully installing all these packages in your PC,open a new terminal and source the environment:
 ```bash
 source /opt/ros/humble/setup.bash
 ```
